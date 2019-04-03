@@ -169,6 +169,10 @@ Install and update using [pip](https://pip.pypa.io/en/stable/quickstart/):
 pip install --upgrade Attr-Dict
 ```
   
+## Requirements  
+  
+- Python >= 3.4
+- no package dependencies
   
 ## Resources  
   
