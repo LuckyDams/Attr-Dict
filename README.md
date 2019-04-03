@@ -160,3 +160,20 @@ Relative interfaces named '**indexes**' are also available to manage any king of
 >>> x.check_arg('A', 'b', 2)
 True
 ```
+  
+## Install  
+  
+Install and update using [pip](https://pip.pypa.io/en/stable/quickstart/):  
+  
+```
+pip install --upgrade Attr-Dict
+```
+  
+  
+## Resources  
+  
+- Releases: https://pypi.org/project/Attr-Dict/
+- Code: https://github.com/LuckyDams/Attr-Dict
+- Issues Tracker: https://github.com/LuckyDams/Attr-Dict/issues
+- Doc: https://github.com/LuckyDams/Attr-Dict/blob/master/README.md
+- License: https://github.com/LuckyDams/Attr-Dict/blob/master/LICENSE
