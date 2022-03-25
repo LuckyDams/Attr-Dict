@@ -61,6 +61,9 @@ class AttrDict(collections.OrderedDict):
     def __setitem__(self, key, value):
         value = self.__coerce(value)
         return super().__setitem__(key, value)
+    
+    def __dir__(self):
+        return list(self.keys()) + super().__dir__()
 
     def copy(self):
         return self.__class__(super().copy())
